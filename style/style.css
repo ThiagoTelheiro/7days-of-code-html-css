@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 60px;
+}
+
+.cabecalho-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 623.912px;
+    width: 100%;
+}
+
+.cabecalho-navbar {
+    display: flex;
+}
+
+.cabecalho-lista {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-lista-item a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #667085;
+}
+
+.cabecalho-btn {
+    display: flex;
+    gap: 12px;
+}
+
+.cabecalho-btn-login {
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #667085;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cabecalho-btn-register {
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: #8E2424 ;
+    cursor: pointer;
+}
