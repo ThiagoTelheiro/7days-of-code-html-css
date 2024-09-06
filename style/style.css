@@ -1,3 +1,8 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -36,7 +41,7 @@ body {
 .cabecalho-lista-item a {
     font-size: 1rem;
     font-weight: 500;
-    color: #667085;
+    color: var(--text-color);
 }
 
 .cabecalho-btn {
@@ -48,10 +53,10 @@ body {
     padding: 10px 18px;
     font-size: 1rem;
     font-weight: 500;
-    color: #667085;
+    color: var(--text-color);
     border: none;
     border-radius: 8px;
-    background-color: white;
+    background-color: #fff;
     cursor: pointer;
 }
 
@@ -62,6 +67,37 @@ body {
     color: #fff;
     border: none;
     border-radius: 8px;
-    background-color: #8E2424 ;
+    background-color: var(--main-color) ;
     cursor: pointer;
+}
+
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    height: 407px;
+}
+
+.sobre-nos span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--main-color);
+    padding-top: 96px;
+}
+
+.sobre-nos h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color:#101828;
+    text-align: center;
+}
+
+.sobre-nos p {
+    font-size: 1.25;
+    font-weight: 400;
+    color:var(--text-color);
+    max-width: 791px;
+    text-align: center;
+    line-height: 25px;
 }
