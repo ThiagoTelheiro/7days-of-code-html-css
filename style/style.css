@@ -1,115 +1,135 @@
 :root {
-    --text-color: #667085;
-    --main-color: #8E2424;
-  }
+  --text-color: #667085;
+  --main-color: #8e2424;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .cabecalho {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 60px;
 }
 
 .cabecalho-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 623.912px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 623.912px;
+  width: 100%;
 }
 
 .cabecalho-navbar {
-    display: flex;
+  display: flex;
 }
 
 .cabecalho-lista {
-    display: flex;
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }
 
 .cabecalho-lista-item a {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
 }
 
 .cabecalho-btn {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 
 .cabecalho-btn-login {
-    padding: 10px 18px;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--text-color);
-    border: none;
-    border-radius: 8px;
-    background-color: #fff;
-    cursor: pointer;
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .cabecalho-btn-register {
-    padding: 10px 18px;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    background-color: var(--main-color) ;
-    cursor: pointer;
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  cursor: pointer;
 }
 
 .sobre-nos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    height: 407px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  height: 407px;
 }
 
-.sobre-nos span {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--main-color);
-    padding-top: 96px;
+.sobre-nos-sub {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--main-color);
+  padding-top: 96px;
 }
 
-.sobre-nos h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    color:#101828;
-    text-align: center;
+.sobre-nos-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #101828;
+  text-align: center;
 }
 
-.sobre-nos p {
-    font-size: 1.25;
-    font-weight: 400;
-    color:var(--text-color);
-    max-width: 791px;
-    text-align: center;
-    line-height: 25px;
+.sobre-nos-text {
+  font-size: 1.25;
+  font-weight: 400;
+  color: var(--text-color);
+  max-width: 791px;
+  text-align: center;
+  line-height: 25px;
 }
 
 .info {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    height: 288px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  height: 288px;
 }
 
 .info-item {
-    max-width: 192px;
+  max-width: 280px;
 }
 
+.info-item-number {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: var(--main-color);
+  margin-bottom: 12px;
+}
+
+.info-item-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.info-item-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: #667085;
+}
