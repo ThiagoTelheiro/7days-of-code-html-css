@@ -101,3 +101,15 @@ body {
     text-align: center;
     line-height: 25px;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    height: 288px;
+}
+
+.info-item {
+    max-width: 192px;
+}
+
