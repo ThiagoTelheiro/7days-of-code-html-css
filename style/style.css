@@ -242,10 +242,51 @@ body {
 
 .depoimentos-info {
   display: flex;
-  
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
 
   background-color:#C3191908;
   max-width: 1216px;
   width: 100%;
   height: 404px;
+  padding: 64px;
+}
+
+.depoimentos-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1088px;
+}
+
+.depoimentos-text span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #8e2424;
+}
+
+.depoimentos-text p {
+  font-size: 2rem;
+  color: #101828;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.depoimentos-perfil img{
+  margin-bottom: 16px;
+}
+
+.depoimentos-perfil p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 4px;
+}
+
+.depoimentos-perfil span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #667085;
 }
