@@ -316,6 +316,36 @@ body {
   margin-bottom: 40px;
 }
 
+.rodape-formulario  {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
 .rodape-formulario .formulario-email {
+  max-width: 360px;
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #667085;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+}
+
+.rodape-formulario .formulario-btn {
+  width: 116px;
+  padding: 12px;
+  background-color: #8e2424;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rodape span {
   
 }
